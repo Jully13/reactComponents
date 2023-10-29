@@ -1,0 +1,22 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 5%;
+
+
+   &__input {
+        flex: 50%;
+        margin-right: 10px;
+        border: 1px solid teal;
+    }
+
+    &__button {
+        padding: 5px 14px;
+        color: teal;
+        font-size: 14px;
+        background: transparent;
+        border: 1px solid teal;
+        cursor: pointer;
+    }
+}
+
